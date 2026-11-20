@@ -45,10 +45,12 @@
     background:var(--berry);
     color:#fff;
     text-align:center;
-    font-size:14px;
+    font-size:clamp(13px,4.1vw,16px);
     font-weight:700;
     letter-spacing:.02em;
-    padding:10px 16px;
+    padding:10px 12px;
+    white-space:nowrap;
+    overflow:hidden;
   }
   .announce span{opacity:.92;font-weight:600}
 
@@ -381,7 +383,7 @@
     box-shadow:var(--shadow-lg);
   }
   .about-text h2{
-    font-family:'Fraunces',Georgia,serif;
+    font-family:'Nunito',sans-serif;
     font-weight:700;
     font-size:clamp(30px,4vw,42px);
     line-height:1.15;
@@ -391,7 +393,8 @@
   .about-text p{font-size:18px;color:var(--cocoa-soft);margin-bottom:16px}
   .about-text p:last-child{margin-bottom:0}
   .about-sign{
-    font-family:'Fraunces',Georgia,serif;
+    font-family:'Nunito',sans-serif;
+    font-weight:700;
     font-size:26px;
     color:var(--berry);
     margin-top:8px;
@@ -535,7 +538,7 @@
 </head>
 <body>
 
-<div class="announce">Self-serve dessert cart &nbsp;·&nbsp; Mon · Wed · Fri, 10am–6pm</div>
+<div class="announce">Dessert cart &nbsp;·&nbsp; Mon · Wed · Fri, 10am–6pm</div>
 
 <header>
   <div class="wrap nav">
